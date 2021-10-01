@@ -1,0 +1,17 @@
+{
+  "name": "image_exp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "svg2img": "^0.9.3",
+    "ts-node-dev": "^1.1.8"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node-dev --transpile-only index.ts"
+  }
+}
